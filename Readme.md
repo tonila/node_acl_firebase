@@ -1,5 +1,4 @@
-#NODE ACL - Access Control Lists for Node
-
+#NODE ACL - Firebase backend
 This fork adds firebase backend support and tests to [NODE ACL](https://github.com/OptimalBits/node_acl)
 
 
