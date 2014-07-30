@@ -1,25 +1,24 @@
 {
-  "name": "acl",
-  "version": "0.4.2",
-  "description": "An Access Control List module, based on Redis with Express middleware support",
+  "name": "acl-firebase",
+  "version": "0.0.1",
+  "description": "Firebase backend for acl",
   "keywords": [
     "middleware",
     "acl",
-    "web"
+    "web",
+    "firebase"    
   ],
-  "repository": "git://github.com/optimalbits/node_acl.git",
-  "author": "Manuel Astudillo <manuel@optimalbits.com>",
-  "homepage": "https://github.com/optimalbits/node_acl",
+  "repository": "git://github.com/tonila/node_acl.git",
+  "author": "Toni Lahnalampi <toni.lahnalampi@gmail.com>",
+  "homepage": "https://github.com/tonila/node_acl.git",
   "engines": {
     "node": ">= 0.4.1"
   },
   "main": "./index.js",
   "dependencies": {
+    "acl": "~0.4.2",
     "async": "~0.2.9",
-    "bluebird": "^1.2.4",
     "lodash": "~2.4.1",
-    "mongodb": "*",
-    "redis": ">= 0.7.1",
     "firebase": "~1.0.17"
   },
   "devDependencies": {
