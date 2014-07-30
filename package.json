@@ -8,9 +8,9 @@
     "web",
     "firebase"    
   ],
-  "repository": "git://github.com/tonila/node_acl.git",
+  "repository": "git://github.com/tonila/node_acl_firebase.git",
   "author": "Toni Lahnalampi <toni.lahnalampi@gmail.com>",
-  "homepage": "https://github.com/tonila/node_acl.git",
+  "homepage": "https://github.com/tonila/node_acl_firebase",
   "engines": {
     "node": ">= 0.4.1"
   },
