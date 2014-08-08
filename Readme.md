@@ -15,7 +15,7 @@ Create Firebase instance at your node.js application. You can use any path desir
 Create acl module by requiring it and instantiating it with Firebase backend instance:
 
 ```javascript
-// 
+// require Firebase and get instance to firebase path
 var Firebase = require('firebase');
 var fb = new Firebase('https://put-firebase-address-here/');
 
