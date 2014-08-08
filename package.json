@@ -6,7 +6,7 @@
     "middleware",
     "acl",
     "web",
-    "firebase"    
+    "firebase"
   ],
   "repository": "git://github.com/tonila/node_acl_firebase.git",
   "author": "Toni Lahnalampi <toni.lahnalampi@gmail.com>",
@@ -16,14 +16,18 @@
   },
   "main": "./index.js",
   "dependencies": {
-    "acl": "~0.4.2",
-    "async": "~0.2.9",
+    "acl": "~0.4.3",
+    "async": "~0.2.10",
     "lodash": "~2.4.1",
-    "firebase": "~1.0.17"
+    "firebase": "~1.0.19"
   },
   "devDependencies": {
     "mocha": "~1.12",
-    "chai": "~1.7.2"
+    "chai": "~1.7.2",
+    "async": "~0.2.10",
+    "lodash": "~2.4.1",
+    "firebase": "~1.0.19",
+    "acl": "~0.4.3"
   },
   "scripts": {
     "test": "mocha test/runner.js --reporter spec",
