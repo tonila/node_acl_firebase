@@ -9,7 +9,7 @@ Using npm:
 npm install acl-firebase
 ```
 
-##Examples
+##Usage
 Register at [firebase.com](https://www.firebase.com) and create app.
 Create Firebase instance at your node.js application. You can use any path desired.
 Create acl module by requiring it and instantiating it with Firebase backend instance:
@@ -28,6 +28,9 @@ fb.on('value', function(dataSnapshot) {
 var acl = require('acl');
 acl = new acl(new acl.firebaseBackend(fb));
 ```
+
+##Documentation
+See [NODE ACL documentation](https://github.com/OptimalBits/node_acl)
 
 ##License 
 
