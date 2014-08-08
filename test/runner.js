@@ -1,5 +1,5 @@
 var Acl = require('../')
-  , tests = require('./tests');
+  , tests = require('../node_modules/acl/test/tests');
 
 
 describe('Firebase', function () {
