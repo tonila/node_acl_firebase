@@ -1,13 +1,39 @@
 #NODE ACL - Firebase backend
 This fork adds firebase backend support and tests to [NODE ACL](https://github.com/OptimalBits/node_acl)
 
+##Installation
 
+Using npm:
+
+```javascript
+npm install acl-firebase
+```
+
+##Examples
+Register at [firebase.com](https://www.firebase.com) and create app.
+Create Firebase instance at your node.js application. You can use any path desired.
+Create acl module by requiring it and instantiating it with Firebase backend instance:
+
+```javascript
+// require Firebase and get instance to firebase path
+var Firebase = require('firebase');
+var fb = new Firebase('https://put-firebase-address-here/');
+
+// enable firebase client data caching by using on() listener (optional)
+fb.on('value', function(dataSnapshot) { 
+  // no need to do anything here
+});
+
+// require acl and create Firebase backend
+var acl = require('acl');
+acl = new acl(new acl.firebaseBackend(fb));
+```
 
 ##License 
 
 (The MIT License)
 
-Copyright (c) 2011-2013 Manuel Astudillo <manuel@optimalbits.com>
+Copyright (c) 2014 Toni Lahnalampi <toni.lahnalampi@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
