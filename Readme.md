@@ -30,7 +30,7 @@ acl = new acl(new acl.firebaseBackend(fb));
 ```
 
 ##Documentation
-See [NODE ACL documentation](https://github.com/OptimalBits/node_acl)
+See [NODE ACL documentation](https://github.com/OptimalBits/node_acl#documentation)
 
 ##License 
 
