@@ -1,5 +1,5 @@
 #NODE ACL - Firebase backend
-This fork adds firebase backend support and tests to [NODE ACL](https://github.com/OptimalBits/node_acl)
+This fork adds Firebase backend support to [NODE ACL](https://github.com/OptimalBits/node_acl)
 
 ##Installation
 
